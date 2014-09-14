@@ -1,0 +1,42 @@
+/*
+ Theme Name:   Responsive Child
+ Template:     responsive
+*/
+
+@import url("../responsive/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+ul.menu {
+	border: 1px solid;
+	border-color: #FF4800;
+}
+
+#featured {
+	background-color: black;
+	border: none;
+}
+
+#wrapper {
+	background-color: black;
+	border: none;
+}
+
+.widget-wrapper {
+	background-color: black;
+	border: none;
+}
+
+a.orange {
+	background-color: #FF4800;
+}
+
+.hero-icon {
+	font-size: xx-large;
+	text-align: center;
+}
+
+.hero-text {
+	font-size: xx-large;
+	margin-bottom: 20px;
+}
