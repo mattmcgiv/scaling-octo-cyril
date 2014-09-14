@@ -8,6 +8,17 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+#wrapper a, #wrapper li a {
+	color: white;
+	text-decoration: underline;
+}
+
+#wrapper a:hover {
+	color: gray;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 span.site-name a {
 	color:white;
 }
