@@ -27,10 +27,6 @@ ul.menu {
 	border: none;
 }
 
-a.orange {
-	background-color: #FF4800;
-}
-
 .hero-icon {
 	font-size: xx-large;
 	text-align: center;
@@ -43,15 +39,19 @@ a.orange {
 
 h1 {
 	/*net6 RED*/
-	color: #F9421D;	
+	color: #FD8824 /*orange*/;	
 }
 
 h2,h3,h4,h5,h6 {
 	/*net6 ORANGE*/
-	color: #FD8824;
+	color: #F9421D;
 }
 
 i {
+	color: #FD8824 /*orange*/;
+}
+
+i:hover {
 	color: white;
 }
 
@@ -61,10 +61,23 @@ p {
 }
 
 a.blue.button {
-	color: black;
+	color: white;
 	background-image: none;
+	background-color: #F9421D;
+	border-color: #FD8824;
+}
+
+a.blue.button:hover {
+	border-color: white;
 	background-color: #FD8824;
-	border-color: #F9421D;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F9421D), to(#FD8824));
+	background-image: -webkit-linear-gradient(top, #F9421D, #FD8824);
+	background-image: -moz-linear-gradient(top, #F9421D, #FD8824);
+	background-image: -ms-linear-gradient(top, #F9421D, #FD8824);
+	background-image: -o-linear-gradient(top, #F9421D, #FD8824);
+	background-image: linear-gradient(top, #F9421D, #FD8824);
+	color: #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F9421D, endColorstr=#FD8824);
 }
 
 /* =Top Menu
@@ -133,14 +146,14 @@ a.blue.button {
 
 .menu a:hover {
 	background-color: #FD8824;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#808080), to(#FD8824));
-	background-image: -webkit-linear-gradient(top, #808080, #FD8824);
-	background-image: -moz-linear-gradient(top, #808080, #FD8824);
-	background-image: -ms-linear-gradient(top, #808080, #FD8824);
-	background-image: -o-linear-gradient(top, #808080, #FD8824);
-	background-image: linear-gradient(top, #808080, #FD8824);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F9421D), to(#FD8824));
+	background-image: -webkit-linear-gradient(top, #F9421D, #FD8824);
+	background-image: -moz-linear-gradient(top, #F9421D, #FD8824);
+	background-image: -ms-linear-gradient(top, #F9421D, #FD8824);
+	background-image: -o-linear-gradient(top, #F9421D, #FD8824);
+	background-image: linear-gradient(top, #F9421D, #FD8824);
 	color: #ffffff;
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#808080, endColorstr=#FD8824);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F9421D, endColorstr=#FD8824);
 }
 
 ul.menu > li:hover {
