@@ -7,6 +7,11 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+
+span.site-name a {
+	color:white;
+}
+
 ul.menu {
 	border: 1px solid;
 	border-color: #FF4800;
