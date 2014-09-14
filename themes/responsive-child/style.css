@@ -40,3 +40,37 @@ a.orange {
 	font-size: xx-large;
 	margin-bottom: 20px;
 }
+
+h1 {
+	/*net6 RED*/
+	color: #F9421D;	
+}
+
+h2,h3,h4,h5,h6 {
+	/*net6 ORANGE*/
+	color: #FD8824;
+}
+
+i {
+	color: white;
+}
+
+p {
+	color: white;
+	font-size: larger;
+}
+
+a.blue.button {
+	color: black;
+	background-image: none;
+	background-color: #FD8824;
+	border-color: #F9421D;
+}
+
+#menu-main-site-menu {
+	color: #F9421D;
+}
+
+.menu-item.a {
+	color: #F9421D;
+}
